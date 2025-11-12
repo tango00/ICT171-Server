@@ -129,11 +129,22 @@ sudo systemctl restart apache2
 
 Restarting Apache is done to apply any changes to files, directories, or permissions so the server runs smoothly. 
 
-### 11. Get SSL Certificate
+### 11. Enable HTTPS with Let’s Encrypt
+
+'''bash
+sudo apt update 
+sudo apt install certbot python3-certbot-apache
+sudo certbot --apache
+'''
+
+Certbot will automatically configure Apache and issue a free SSL certificate. This allows the server to use https. 
 
 ### 12. Set Up DNS
+<img width="1901" height="957" alt="Screenshot 2025-11-12 182842" src="https://github.com/user-attachments/assets/48667a34-7ab5-473c-b6de-cfce47a396a3" />
+<img width="1919" height="956" alt="Screenshot 2025-11-12 183204" src="https://github.com/user-attachments/assets/3f3de623-654d-49e3-95bb-399134c3eaa6" />
+<img width="1308" height="360" alt="Screenshot 2025-11-12 183750" src="https://github.com/user-attachments/assets/5cdd3356-a498-435f-8a4b-c6183ce8f21b" />
 
-I purchased a domain on GoDaddy and linked it to my EC2 Instance's IP address to make my website accessible via a custom domain. 
+I purchased a domain on GoDaddy and linked it to my EC2 Instance's IP address to make my website accessible via a custom domain. Then I connected my IP to the domain name. 
 
 --- 
 That is how I made this web server. As I said in the Project Proposal, I used AI to help me out with issues and with learning how to code in HTML. However, the idea and the creation is by me. 
