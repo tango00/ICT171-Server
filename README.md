@@ -4,7 +4,7 @@
 This project documents how I set up a webserver on an AWS EC2 instance and deployed a simple website with HTML, CSS and images. 
 
 ## Link to Website
-
+www.tritondeveraportfolio.com
 
 ## Link to Video Explainer
 
@@ -147,7 +147,7 @@ Certbot will automatically configure Apache and issue a free SSL certificate. Th
 I purchased a domain on GoDaddy and linked it to my EC2 Instance's IP address to make my website accessible via a custom domain. Then I connected my IP to the domain name. 
 
 --- 
-That is how I made this web server. As I said in the Project Proposal, I used AI to help me out with issues and with learning how to code in HTML. However, the idea and the creation is by me. I bumped into a lot of technical difficulties and a lot of errors; without ChatGPT there to summarize the errors and help me learn I wouldn't be able to have completed this project. Towards the end of making this server, I had to change instances because the original just wasn't working anymore. I couldn't access it anymore even through AWS itself. That explains why some photos don't match with the others. 
+That is how I made this web server. As I said in the Project Proposal, I used AI to help me out with issues and with learning how to code in HTML. However, the idea and the creation is by me. I bumped into a lot of technical difficulties and a lot of errors; without ChatGPT there to summarize the errors and help me learn I wouldn't be able to have completed this project. Towards the end of making this server, I had to change instances because the original just wasn't working anymore. I couldn't access it anymore even through AWS itself. I had to create a new instance an abundance of times. That explains why some photos don't match with the others. 
 
 
 
