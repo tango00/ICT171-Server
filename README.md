@@ -131,11 +131,11 @@ Restarting Apache is done to apply any changes to files, directories, or permiss
 
 ### 11. Enable HTTPS with Let’s Encrypt
 
-'''bash
+```bash
 sudo apt update 
 sudo apt install certbot python3-certbot-apache
 sudo certbot --apache
-'''
+```
 
 Certbot will automatically configure Apache and issue a free SSL certificate. This allows the server to use https. 
 
