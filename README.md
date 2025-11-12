@@ -129,7 +129,9 @@ sudo systemctl restart apache2
 
 Restarting Apache is done to apply any changes to files, directories, or permissions so the server runs smoothly. 
 
-### 11. Set Up DNS
+### 11. Get SSL Certificate
+
+### 12. Set Up DNS
 
 I purchased a domain on GoDaddy and linked it to my EC2 Instance's IP address to make my website accessible via a custom domain. 
 
