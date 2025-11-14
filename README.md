@@ -7,7 +7,7 @@ This project documents how I set up a webserver on an AWS EC2 instance and deplo
 www.tritondeveraportfolio.com
 
 ## Link to Video Explainer
-
+https://drive.google.com/file/d/1o9Ucdw_SDPecnbuyYSTWiW3moTnG0WdI/view?usp=drive_link 
 
 ## Requirements
 
